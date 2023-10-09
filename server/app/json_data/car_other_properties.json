@@ -1,0 +1,20 @@
+{
+  "category": [
+    "Jeep",
+    "Hatchback",
+    "Sedan",
+    "Microbus",
+    "Goods wagon",
+    "Universal",
+    "Coupe",
+    "Minivan",
+    "Cabriolet",
+    "Limousine",
+    "Pickup"
+  ],
+  "leather_interior": ["Yes", "No"],
+  "fuel_type": ["Hybrid", "Petrol", "Diesel", "CNG", "Plug-in Hybrid", "LPG"],
+  "gear_box_type": ["Automatic", "Tiptronic", "Variator", "Manual"],
+  "drive_wheels": ["4x4", "Front", "Rear"],
+  "wheel": ["Left wheel", "Right-hand drive"]
+}
