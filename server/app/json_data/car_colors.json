@@ -1,0 +1,500 @@
+{
+  "ACURA": { "colors": ["Silver", "Black", "White", "Blue", "Grey", "Brown"] },
+  "ALFA ROMEO": { "colors": ["Black", "Silver", "Blue"] },
+  "AUDI": {
+    "colors": [
+      "Black",
+      "White",
+      "Blue",
+      "Silver",
+      "Grey",
+      "Golden",
+      "Red",
+      "Beige",
+      "Brown",
+      "Pink"
+    ]
+  },
+  "BMW": {
+    "colors": [
+      "Silver",
+      "Black",
+      "Blue",
+      "White",
+      "Grey",
+      "Green",
+      "Red",
+      "Carnelian red",
+      "Brown",
+      "Golden",
+      "Orange",
+      "Sky blue",
+      "Beige",
+      "Purple",
+      "Pink"
+    ]
+  },
+  "BUICK": { "colors": ["Black", "Silver", "Red", "White"] },
+  "CADILLAC": {
+    "colors": ["Silver", "Black", "Pink", "White", "Blue", "Grey"]
+  },
+  "CHEVROLET": {
+    "colors": [
+      "Black",
+      "Red",
+      "Silver",
+      "Grey",
+      "Green",
+      "Brown",
+      "White",
+      "Blue",
+      "Golden",
+      "Sky blue",
+      "Carnelian red",
+      "Beige",
+      "Orange",
+      "Pink",
+      "Purple"
+    ]
+  },
+  "CHRYSLER": {
+    "colors": [
+      "Black",
+      "Beige",
+      "White",
+      "Grey",
+      "Green",
+      "Brown",
+      "Pink",
+      "Red",
+      "Silver",
+      "Yellow"
+    ]
+  },
+  "CITROEN": { "colors": ["White", "Red", "Beige", "Blue", "Black", "Grey"] },
+  "DAEWOO": { "colors": ["Black", "Grey", "Silver", "Blue", "White"] },
+  "DAIHATSU": {
+    "colors": ["White", "Green", "Purple", "Silver", "Black", "Blue"]
+  },
+  "DODGE": {
+    "colors": [
+      "Grey",
+      "Blue",
+      "Black",
+      "White",
+      "Yellow",
+      "Orange",
+      "Silver",
+      "Beige",
+      "Brown",
+      "Red",
+      "Green",
+      "Golden",
+      "Purple"
+    ]
+  },
+  "FERRARI": { "colors": ["Silver"] },
+  "FIAT": {
+    "colors": [
+      "Red",
+      "Blue",
+      "White",
+      "Grey",
+      "Black",
+      "Carnelian red",
+      "Green",
+      "Yellow",
+      "Brown",
+      "Orange",
+      "Silver",
+      "Beige",
+      "Sky blue"
+    ]
+  },
+  "FORD": {
+    "colors": [
+      "White",
+      "Blue",
+      "Silver",
+      "Black",
+      "Sky blue",
+      "Grey",
+      "Red",
+      "Yellow",
+      "Carnelian red",
+      "Green",
+      "Golden",
+      "Beige",
+      "Brown",
+      "Purple",
+      "Orange",
+      "Pink"
+    ]
+  },
+  "GAZ": {
+    "colors": ["Black", "White", "Brown", "Green", "Yellow", "Sky blue"]
+  },
+  "GMC": { "colors": ["Black", "White", "Silver", "Red", "Blue", "Green"] },
+  "GREATWALL": { "colors": ["White"] },
+  "HAVAL": { "colors": ["Black"] },
+  "HONDA": {
+    "colors": [
+      "Black",
+      "Silver",
+      "Blue",
+      "White",
+      "Green",
+      "Grey",
+      "Red",
+      "Brown",
+      "Carnelian red",
+      "Beige",
+      "Yellow",
+      "Purple",
+      "Golden",
+      "Sky blue",
+      "Orange",
+      "Pink"
+    ]
+  },
+  "HUMMER": { "colors": ["Black", "Beige"] },
+  "HYUNDAI": {
+    "colors": [
+      "White",
+      "Grey",
+      "Blue",
+      "Silver",
+      "Black",
+      "Orange",
+      "Yellow",
+      "Red",
+      "Beige",
+      "Carnelian red",
+      "Golden",
+      "Brown",
+      "Sky blue",
+      "Purple",
+      "Green"
+    ]
+  },
+  "INFINITI": {
+    "colors": ["Black", "Silver", "White", "Grey", "Golden", "Blue"]
+  },
+  "ISUZU": { "colors": ["Carnelian red", "Blue", "Grey", "Black"] },
+  "JAGUAR": {
+    "colors": [
+      "White",
+      "Red",
+      "Green",
+      "Black",
+      "Sky blue",
+      "Silver",
+      "Carnelian red",
+      "Blue",
+      "Grey"
+    ]
+  },
+  "JEEP": {
+    "colors": [
+      "Black",
+      "Green",
+      "Grey",
+      "Red",
+      "Silver",
+      "White",
+      "Sky blue",
+      "Blue",
+      "Carnelian red",
+      "Brown",
+      "Pink",
+      "Beige",
+      "Golden"
+    ]
+  },
+  "KIA": {
+    "colors": [
+      "Silver",
+      "White",
+      "Black",
+      "Grey",
+      "Red",
+      "Blue",
+      "Carnelian red",
+      "Beige",
+      "Golden",
+      "Brown",
+      "Purple"
+    ]
+  },
+  "LANCIA": { "colors": ["Blue"] },
+  "LAND ROVER": {
+    "colors": [
+      "Blue",
+      "Green",
+      "Black",
+      "Silver",
+      "White",
+      "Grey",
+      "Carnelian red",
+      "Sky blue"
+    ]
+  },
+  "LEXUS": {
+    "colors": [
+      "Silver",
+      "White",
+      "Black",
+      "Grey",
+      "Red",
+      "Blue",
+      "Carnelian red",
+      "Beige",
+      "Brown",
+      "Golden",
+      "Green",
+      "Sky blue"
+    ]
+  },
+  "LINCOLN": { "colors": ["Grey", "White", "Red", "Black", "Silver"] },
+  "MASERATI": { "colors": ["Silver", "Brown", "Black"] },
+  "MAZDA": {
+    "colors": [
+      "Red",
+      "Black",
+      "Green",
+      "Silver",
+      "Blue",
+      "Grey",
+      "White",
+      "Brown",
+      "Carnelian red",
+      "Golden",
+      "Beige"
+    ]
+  },
+  "MERCEDES-BENZ": {
+    "colors": [
+      "White",
+      "Black",
+      "Blue",
+      "Grey",
+      "Silver",
+      "Golden",
+      "Beige",
+      "Red",
+      "Green",
+      "Sky blue",
+      "Carnelian red",
+      "Yellow",
+      "Purple",
+      "Brown",
+      "Pink"
+    ]
+  },
+  "MERCURY": { "colors": ["Silver", "Black", "White"] },
+  "MINI": {
+    "colors": [
+      "Silver",
+      "Red",
+      "Brown",
+      "White",
+      "Green",
+      "Blue",
+      "Purple",
+      "Black",
+      "Yellow",
+      "Grey",
+      "Orange"
+    ]
+  },
+  "MITSUBISHI": {
+    "colors": [
+      "White",
+      "Red",
+      "Blue",
+      "Silver",
+      "Brown",
+      "Sky blue",
+      "Black",
+      "Green",
+      "Grey",
+      "Beige",
+      "Purple",
+      "Carnelian red",
+      "Pink",
+      "Golden",
+      "Orange"
+    ]
+  },
+  "MOSKVICH": { "colors": ["Blue", "Red", "Sky blue", "Beige"] },
+  "NISSAN": {
+    "colors": [
+      "Black",
+      "White",
+      "Grey",
+      "Brown",
+      "Silver",
+      "Red",
+      "Blue",
+      "Golden",
+      "Beige",
+      "Yellow",
+      "Purple",
+      "Carnelian red",
+      "Sky blue",
+      "Green",
+      "Orange"
+    ]
+  },
+  "OPEL": {
+    "colors": [
+      "White",
+      "Green",
+      "Beige",
+      "Silver",
+      "Red",
+      "Black",
+      "Blue",
+      "Carnelian red",
+      "Purple",
+      "Brown",
+      "Golden",
+      "Grey",
+      "Yellow",
+      "Sky blue",
+      "Pink"
+    ]
+  },
+  "PEUGEOT": {
+    "colors": ["Silver", "Black", "Blue", "Green", "White", "Grey", "Red"]
+  },
+  "PONTIAC": { "colors": ["White"] },
+  "PORSCHE": { "colors": ["White", "Silver", "Black", "Grey", "Blue"] },
+  "RENAULT": {
+    "colors": [
+      "White",
+      "Green",
+      "Blue",
+      "Purple",
+      "Black",
+      "Silver",
+      "Red",
+      "Grey",
+      "Golden"
+    ]
+  },
+  "ROLLS-ROYCE": { "colors": ["Silver", "White"] },
+  "ROVER": { "colors": ["Silver", "Carnelian red", "Beige"] },
+  "SAAB": { "colors": ["Black"] },
+  "SATURN": { "colors": ["Blue"] },
+  "SCION": { "colors": ["Silver", "Blue", "Grey", "Carnelian red", "White"] },
+  "SEAT": { "colors": ["Black", "Silver"] },
+  "SKODA": { "colors": ["White", "Silver", "Black", "Grey"] },
+  "SSANGYONG": {
+    "colors": [
+      "Silver",
+      "White",
+      "Black",
+      "Carnelian red",
+      "Red",
+      "Blue",
+      "Grey",
+      "Orange",
+      "Brown",
+      "Green",
+      "Golden"
+    ]
+  },
+  "SUBARU": {
+    "colors": [
+      "Blue",
+      "White",
+      "Black",
+      "Silver",
+      "Grey",
+      "Beige",
+      "Orange",
+      "Red",
+      "Golden",
+      "Green",
+      "Brown",
+      "Carnelian red",
+      "Sky blue"
+    ]
+  },
+  "SUZUKI": {
+    "colors": [
+      "Black",
+      "Green",
+      "Silver",
+      "Yellow",
+      "White",
+      "Grey",
+      "Red",
+      "Carnelian red",
+      "Blue",
+      "Golden",
+      "Beige",
+      "Sky blue",
+      "Orange"
+    ]
+  },
+  "TOYOTA": {
+    "colors": [
+      "White",
+      "Black",
+      "Blue",
+      "Silver",
+      "Sky blue",
+      "Grey",
+      "Beige",
+      "Red",
+      "Green",
+      "Golden",
+      "Brown",
+      "Yellow",
+      "Carnelian red",
+      "Orange",
+      "Pink",
+      "Purple"
+    ]
+  },
+  "UAZ": { "colors": ["Green", "Black", "Yellow", "Grey", "Blue", "Beige"] },
+  "VAZ": {
+    "colors": [
+      "Green",
+      "White",
+      "Blue",
+      "Yellow",
+      "Beige",
+      "Red",
+      "Silver",
+      "Black",
+      "Grey",
+      "Carnelian red",
+      "Purple",
+      "Orange",
+      "Sky blue"
+    ]
+  },
+  "VOLKSWAGEN": {
+    "colors": [
+      "Black",
+      "Silver",
+      "Green",
+      "Grey",
+      "White",
+      "Blue",
+      "Red",
+      "Carnelian red",
+      "Pink",
+      "Beige",
+      "Purple",
+      "Golden",
+      "Sky blue",
+      "Brown"
+    ]
+  },
+  "VOLVO": { "colors": ["Black", "White", "Grey", "Silver", "Green", "Red"] },
+  "ZAZ": { "colors": ["Blue", "Green"] }
+}
