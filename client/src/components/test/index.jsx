@@ -36,8 +36,6 @@ const RightSide = () => {
   const theme = useTheme();
   const dispatch = useDispatch();
 
-  const [_, setActiveStep] = useState(0);
-
   const activeStep = useSelector((state) => state.home.value);
 
   const handleNext = () => {

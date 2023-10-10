@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import Box from "@mui/material/Box";
 import { useTheme } from "@mui/material/styles";
 import MobileStepper from "@mui/material/MobileStepper";
-import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
@@ -10,33 +9,11 @@ import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 
 import { useDispatch, useSelector } from "react-redux";
 import { next, back } from "../../../features/homeSlice";
-
-const steps = [
-  {
-    label: "Select campaign settings",
-    description: `For each ad campaign that you create, you can control how much
-              you're willing to spend on clicks and conversions, which networks
-              and geographical locations you want your ads to show on, and more.`,
-  },
-  {
-    label: "Create an ad group",
-    description:
-      "An ad group contains one or more ads which target a shared set of keywords.",
-  },
-  {
-    label: "Create an ad",
-    description: `Try out different ad text to see what brings in the most customers,
-              and learn how to enhance your ads using features like ad extensions.
-              If you run into any problems with your ads, find out how to tell if
-              they're running and how to resolve approval issues.`,
-  },
-];
+import { STEPS } from "../../../constants/steps";
 
 const RightSideSteps = () => {
   const theme = useTheme();
   const dispatch = useDispatch();
-
-  const [_, setActiveStep] = useState(0);
 
   const activeStep = useSelector((state) => state.home.value);
 
@@ -50,7 +27,7 @@ const RightSideSteps = () => {
 
   return (
     <Box sx={{ flexGrow: 1, height: "100vh" }}>
-      <Paper
+      {/* <Paper
         square
         elevation={0}
         sx={{
@@ -61,18 +38,18 @@ const RightSideSteps = () => {
         }}
       >
         <Typography>{steps[activeStep].label}</Typography>
-      </Paper>
+      </Paper> */}
       <Box
         sx={{
-          height: "90%",
+          height: "95%",
           width: "100%",
         }}
       >
-        {steps[activeStep].description}
+        {STEPS[activeStep].description}
       </Box>
       <MobileStepper
         variant="progress"
-        steps={steps.length}
+        steps={STEPS.length}
         position="static"
         sx={{ height: "5%", p: 0 }}
         activeStep={activeStep}
@@ -80,7 +57,7 @@ const RightSideSteps = () => {
           <Button
             size="small"
             onClick={handleNext}
-            disabled={activeStep === steps.length - 1}
+            disabled={activeStep === STEPS.length - 1}
           >
             Next
             {theme.direction === "rtl" ? (

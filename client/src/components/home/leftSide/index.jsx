@@ -1,12 +1,12 @@
 import { Grid } from "@mui/material";
 import React from "react";
-import FormSteps from "../formSteps";
+import LeftFormSteps from "../leftFormSteps";
 
 const LeftSide = () => {
   return (
     <Grid container height="100%" justifyContent="center" alignContent="center">
       <Grid item>
-        <FormSteps />
+        <LeftFormSteps />
       </Grid>
     </Grid>
   );

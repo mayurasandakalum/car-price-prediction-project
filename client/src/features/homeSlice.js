@@ -14,13 +14,16 @@ export const homeSlice = createSlice({
     back: (state) => {
       state.value -= 1;
     },
+    reset: (state) => {
+      state.value = 0;
+    },
     // incrementByAmount: (state, action) => {
-    //   state.value += action.payload
+    //   state.value += action.payload;
     // },
   },
 });
 
 // Action creators are generated for each case reducer function
-export const { next, back } = homeSlice.actions;
+export const { next, back, reset } = homeSlice.actions;
 
 export default homeSlice.reducer;

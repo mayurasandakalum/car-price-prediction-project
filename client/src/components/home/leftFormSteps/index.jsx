@@ -7,53 +7,29 @@ import StepContent from "@mui/material/StepContent";
 import Button from "@mui/material/Button";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 
-const steps = [
-  {
-    label: "Select a Manufacturer",
-  },
-  {
-    label: "Select a Model",
-  },
-  {
-    label: "Select a Model",
-  },
-  {
-    label: "Select a Model",
-  },
-  {
-    label: "Select a Model",
-  },
-  {
-    label: "Select a Year",
-  },
-];
+import { reset } from "../../../features/homeSlice";
+import { STEPS } from "../../../constants/steps";
 
-const FormSteps = () => {
-  const [_, setActiveStep] = useState(1);
+const LeftFormSteps = () => {
+  // const [_, setActiveStep] = useState(1);
+  const dispatcher = useDispatch();
   const activeStep = useSelector((state) => state.home.value);
 
-  const handleNext = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep + 1);
-  };
-
-  const handleBack = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep - 1);
-  };
-
   const handleReset = () => {
-    setActiveStep(0);
+    // setActiveStep(0);
+    dispatcher(reset());
   };
 
   return (
-    <Box sx={{ maxWidth: 400 }}>
+    <Box>
       <Stepper activeStep={activeStep} orientation="vertical">
-        {steps.map((step, index) => (
+        {STEPS.map((step, index) => (
           <Step key={step.label}>
             <StepLabel
               optional={
-                index === steps.length - 1 ? (
+                index === STEPS.length - 1 ? (
                   <Typography variant="caption">Last step</Typography>
                 ) : null
               }
@@ -83,7 +59,7 @@ const FormSteps = () => {
           </Step>
         ))}
       </Stepper>
-      {activeStep === steps.length && (
+      {activeStep === STEPS.length - 1 && (
         <Paper square elevation={0} sx={{ p: 3 }}>
           <Typography>All steps completed - you&apos;re finished</Typography>
           <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }}>
@@ -95,4 +71,4 @@ const FormSteps = () => {
   );
 };
 
-export default FormSteps;
+export default LeftFormSteps;
