@@ -3,22 +3,19 @@ import Box from "@mui/material/Box";
 import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
 import StepLabel from "@mui/material/StepLabel";
-import StepContent from "@mui/material/StepContent";
 import Button from "@mui/material/Button";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import { useSelector, useDispatch } from "react-redux";
 
-import { reset } from "../../../features/homeSlice";
+import { reset } from "../../../reducers/homeSlice";
 import { STEPS } from "../../../constants/steps";
 
 const LeftFormSteps = () => {
-  // const [_, setActiveStep] = useState(1);
   const dispatcher = useDispatch();
   const activeStep = useSelector((state) => state.home.value);
 
   const handleReset = () => {
-    // setActiveStep(0);
     dispatcher(reset());
   };
 

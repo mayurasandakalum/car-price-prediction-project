@@ -26,11 +26,17 @@ def get_manufacturers():
         success_response = response_service.create_success_response(
             data=result_data
         )
-        return jsonify(success_response)
+        response = jsonify(success_response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+
+        return response
     except Exception as e:
         error_response = response_service.create_error_response(
             message="Operation failed", error_code=400, details=str(e))
-        return jsonify(error_response), 400
+        response = jsonify(error_response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+
+        return response, 400
 
 # route for models
 
