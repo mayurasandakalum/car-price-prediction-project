@@ -3,7 +3,8 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   value: 0,
   manufacturer: "",
-  isManufacturerSelected: false,
+  model: "",
+  productionYear: "",
 };
 
 export const homeSlice = createSlice({
@@ -22,8 +23,11 @@ export const homeSlice = createSlice({
     setManufacturer: (state, action) => {
       state.manufacturer = action.payload;
     },
-    setIsManufacturerSelected: (state, action) => {
-      state.isManufacturerSelected = action.payload;
+    setModel: (state, action) => {
+      state.model = action.payload;
+    },
+    setProductionYear: (state, action) => {
+      state.productionYear = action.payload;
     },
 
     // incrementByAmount: (state, action) => {
@@ -32,7 +36,14 @@ export const homeSlice = createSlice({
   },
 });
 
-export const { next, back, reset, setManufacturer, setIsManufacturerSelected } =
-  homeSlice.actions;
+export const {
+  next,
+  back,
+  reset,
+  setManufacturer,
+  setIsManufacturerSelected,
+  setModel,
+  setProductionYear,
+} = homeSlice.actions;
 
 export default homeSlice.reducer;

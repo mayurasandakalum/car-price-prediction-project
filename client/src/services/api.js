@@ -14,3 +14,12 @@ export const getManufacturers = async () => {
     throw error;
   }
 };
+
+export const getModels = async (manufacturer) => {
+  try {
+    const response = await api.get(`/api/models/${manufacturer}`);
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
+};

@@ -6,16 +6,15 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
-import CarCard from "../carCard";
 
 import { useDispatch, useSelector } from "react-redux";
 import { next, back } from "../../../reducers/homeSlice";
 import { STEPS } from "../../../constants/steps";
 
 import { getManufacturers } from "../../../services/api";
-import { Grid } from "@mui/material";
 import SelectManufacturer from "../selectManufacturer";
 import SelectModel from "../selectModel";
+import SelectYear from "../selectYear";
 
 const RightSideSteps = () => {
   const [manufacturers, setManufacturers] = useState();
@@ -70,6 +69,8 @@ const RightSideSteps = () => {
         )}
 
         {STEPS[activeStep].index === "model" && <SelectModel />}
+
+        {STEPS[activeStep].index === "year" && <SelectYear />}
       </Box>
       <MobileStepper
         variant="progress"
