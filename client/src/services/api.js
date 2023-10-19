@@ -23,3 +23,12 @@ export const getModels = async (manufacturer) => {
     throw error;
   }
 };
+
+export const getColors = async (manufacturer) => {
+  try {
+    const response = await api.get(`/api/colors/${manufacturer}`);
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
+};

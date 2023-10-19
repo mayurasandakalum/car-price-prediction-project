@@ -5,6 +5,7 @@ const initialState = {
   manufacturer: "",
   model: "",
   productionYear: "",
+  color: "",
 };
 
 export const homeSlice = createSlice({
@@ -29,6 +30,9 @@ export const homeSlice = createSlice({
     setProductionYear: (state, action) => {
       state.productionYear = action.payload;
     },
+    setColor: (state, action) => {
+      state.color = action.payload;
+    },
 
     // incrementByAmount: (state, action) => {
     //   state.value += action.payload;
@@ -44,6 +48,7 @@ export const {
   setIsManufacturerSelected,
   setModel,
   setProductionYear,
+  setColor,
 } = homeSlice.actions;
 
 export default homeSlice.reducer;
