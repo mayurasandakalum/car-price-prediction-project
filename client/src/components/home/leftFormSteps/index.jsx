@@ -10,6 +10,14 @@ import { useSelector, useDispatch } from "react-redux";
 
 import { reset } from "../../../reducers/homeSlice";
 import { STEPS } from "../../../constants/steps";
+import { styled } from "@mui/material";
+
+const StyledStepLabel = styled(StepLabel)({
+  "& .MuiStepLabel-label": {
+    fontSize: "20px",
+    fontWeight: "bold",
+  },
+});
 
 const LeftFormSteps = () => {
   const dispatcher = useDispatch();
@@ -24,15 +32,16 @@ const LeftFormSteps = () => {
       <Stepper activeStep={activeStep} orientation="vertical">
         {STEPS.map((step, index) => (
           <Step key={step.label}>
-            <StepLabel
+            <StyledStepLabel
               optional={
                 index === STEPS.length - 1 ? (
                   <Typography variant="caption">Last step</Typography>
                 ) : null
               }
+              sx={{ fontSize: "20px", color: "red" }}
             >
               {step.label}
-            </StepLabel>
+            </StyledStepLabel>
             {/* <StepContent>
               <Box sx={{ mb: 2 }}>
                 <div>

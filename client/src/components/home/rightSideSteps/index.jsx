@@ -15,6 +15,11 @@ import { getManufacturers } from "../../../services/api";
 import SelectManufacturer from "../selectManufacturer";
 import SelectModel from "../selectModel";
 import SelectYear from "../selectYear";
+import SelectColor from "../selectColor";
+import SelectEngineVolume from "../selectEngineVolume";
+import SelectCategory from "../selectCategory";
+import SelectLeatherInterior from "../selectLeatherInterior";
+import SelectFuelType from "../selectFuelType";
 
 const RightSideSteps = () => {
   const [manufacturers, setManufacturers] = useState();
@@ -67,10 +72,16 @@ const RightSideSteps = () => {
         {STEPS[activeStep].index === "manufacturer" && (
           <SelectManufacturer manufacturers={manufacturers} />
         )}
-
         {STEPS[activeStep].index === "model" && <SelectModel />}
-
         {STEPS[activeStep].index === "year" && <SelectYear />}
+        {STEPS[activeStep].index === "color" && <SelectColor />}
+        {STEPS[activeStep].index === "volume" && <SelectEngineVolume />}
+        {STEPS[activeStep].index === "category" && <SelectCategory />}
+        {STEPS[activeStep].index === "leatherinterior" && (
+          <SelectLeatherInterior />
+        )}
+
+        {STEPS[activeStep].index === "fuel" && <SelectFuelType />}
       </Box>
       <MobileStepper
         variant="progress"

@@ -5,6 +5,10 @@ const initialState = {
   manufacturer: "",
   model: "",
   productionYear: "",
+  color: "",
+  category: "",
+  leatherInterior: false,
+  fuelType: "",
 };
 
 export const homeSlice = createSlice({
@@ -29,10 +33,18 @@ export const homeSlice = createSlice({
     setProductionYear: (state, action) => {
       state.productionYear = action.payload;
     },
-
-    // incrementByAmount: (state, action) => {
-    //   state.value += action.payload;
-    // },
+    setColor: (state, action) => {
+      state.color = action.payload;
+    },
+    setCategory: (state, action) => {
+      state.category = action.payload;
+    },
+    setLeatherInterior: (state, action) => {
+      state.leatherInterior = action.payload;
+    },
+    setFuelType: (state, action) => {
+      state.fuelType = action.payload;
+    },
   },
 });
 
@@ -44,6 +56,10 @@ export const {
   setIsManufacturerSelected,
   setModel,
   setProductionYear,
+  setColor,
+  setCategory,
+  setLeatherInterior,
+  setFuelType,
 } = homeSlice.actions;
 
 export default homeSlice.reducer;
