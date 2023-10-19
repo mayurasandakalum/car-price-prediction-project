@@ -1,0 +1,593 @@
+{
+  "ACURA": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42"
+  },
+  "ALFA ROMEO": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255"
+  },
+  "AUDI": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Pink": "https://www.thecolorapi.com/id?format=svg&rgb=255,192,203"
+  },
+  "BMW": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128",
+    "Pink": "https://www.thecolorapi.com/id?format=svg&rgb=255,192,203"
+  },
+  "BUICK": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255"
+  },
+  "CADILLAC": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Pink": "https://www.thecolorapi.com/id?format=svg&rgb=255,192,203",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128"
+  },
+  "CHEVROLET": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0",
+    "Pink": "https://www.thecolorapi.com/id?format=svg&rgb=255,192,203",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128"
+  },
+  "CHRYSLER": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Pink": "https://www.thecolorapi.com/id?format=svg&rgb=255,192,203",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0"
+  },
+  "CITROEN": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128"
+  },
+  "DAEWOO": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255"
+  },
+  "DAIHATSU": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255"
+  },
+  "DODGE": {
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128"
+  },
+  "FERRARI": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192"
+  },
+  "FIAT": {
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255"
+  },
+  "FORD": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0",
+    "Pink": "https://www.thecolorapi.com/id?format=svg&rgb=255,192,203"
+  },
+  "GAZ": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255"
+  },
+  "GMC": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0"
+  },
+  "GREATWALL": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255"
+  },
+  "HAVAL": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0"
+  },
+  "HONDA": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0",
+    "Pink": "https://www.thecolorapi.com/id?format=svg&rgb=255,192,203"
+  },
+  "HUMMER": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220"
+  },
+  "HYUNDAI": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0"
+  },
+  "INFINITI": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255"
+  },
+  "ISUZU": {
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0"
+  },
+  "JAGUAR": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128"
+  },
+  "JEEP": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Pink": "https://www.thecolorapi.com/id?format=svg&rgb=255,192,203",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0"
+  },
+  "KIA": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128"
+  },
+  "LANCIA": {
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255"
+  },
+  "LAND ROVER": {
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255"
+  },
+  "LEXUS": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255"
+  },
+  "LINCOLN": {
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192"
+  },
+  "MASERATI": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0"
+  },
+  "MAZDA": {
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220"
+  },
+  "MERCEDES-BENZ": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Pink": "https://www.thecolorapi.com/id?format=svg&rgb=255,192,203"
+  },
+  "MERCURY": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255"
+  },
+  "MINI": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0"
+  },
+  "MITSUBISHI": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Pink": "https://www.thecolorapi.com/id?format=svg&rgb=255,192,203",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0"
+  },
+  "MOSKVICH": {
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220"
+  },
+  "NISSAN": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0"
+  },
+  "OPEL": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Pink": "https://www.thecolorapi.com/id?format=svg&rgb=255,192,203"
+  },
+  "PEUGEOT": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0"
+  },
+  "PONTIAC": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255"
+  },
+  "PORSCHE": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255"
+  },
+  "RENAULT": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0"
+  },
+  "ROLLS-ROYCE": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255"
+  },
+  "ROVER": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220"
+  },
+  "SAAB": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0"
+  },
+  "SATURN": {
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255"
+  },
+  "SCION": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255"
+  },
+  "SEAT": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192"
+  },
+  "SKODA": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128"
+  },
+  "SSANGYONG": {
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0"
+  },
+  "SUBARU": {
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255"
+  },
+  "SUZUKI": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0"
+  },
+  "TOYOTA": {
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0",
+    "Pink": "https://www.thecolorapi.com/id?format=svg&rgb=255,192,203",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128"
+  },
+  "UAZ": {
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220"
+  },
+  "VAZ": {
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Yellow": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,0",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128",
+    "Orange": "https://www.thecolorapi.com/id?format=svg&rgb=255,165,0",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255"
+  },
+  "VOLKSWAGEN": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0",
+    "Carnelian red": "https://www.thecolorapi.com/id?format=svg&rgb=179,27,27",
+    "Pink": "https://www.thecolorapi.com/id?format=svg&rgb=255,192,203",
+    "Beige": "https://www.thecolorapi.com/id?format=svg&rgb=245,245,220",
+    "Purple": "https://www.thecolorapi.com/id?format=svg&rgb=128,0,128",
+    "Gold": "https://www.thecolorapi.com/id?format=svg&rgb=255,215,0",
+    "Sky blue": "https://www.thecolorapi.com/id?format=svg&rgb=135,206,255",
+    "Brown": "https://www.thecolorapi.com/id?format=svg&rgb=165,42,42"
+  },
+  "VOLVO": {
+    "Black": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,0",
+    "White": "https://www.thecolorapi.com/id?format=svg&rgb=255,255,255",
+    "Grey": "https://www.thecolorapi.com/id?format=svg&rgb=128,128,128",
+    "Silver": "https://www.thecolorapi.com/id?format=svg&rgb=192,192,192",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0",
+    "Red": "https://www.thecolorapi.com/id?format=svg&rgb=255,0,0"
+  },
+  "ZAZ": {
+    "Blue": "https://www.thecolorapi.com/id?format=svg&rgb=0,0,255",
+    "Green": "https://www.thecolorapi.com/id?format=svg&rgb=0,128,0"
+  }
+}

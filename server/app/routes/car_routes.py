@@ -7,7 +7,7 @@ from app.services.car_data_service import CarDataService
 file_paths = {
     'manufacturers': 'server/app/json_data/car_manufacturers.json',
     'models': 'server/app/json_data/car_models.json',
-    'color': 'server/app/json_data/car_colors.json',
+    'color': 'server/app/json_data/car_colors_apis.json',
     'car_other_properties': 'server/app/json_data/car_other_properties.json'
 }
 
@@ -67,10 +67,10 @@ def get_models(param):
 @app.route('/api/colors/<param>', methods=['GET'])
 def get_colors(param):
     try:
-        result_data = car_data_service.get_colors()
+        result_data = car_data_service.get_colors(param)
 
         success_response = response_service.create_success_response(
-            data=result_data.get(str(param).upper())
+            data=result_data
         )
         response = jsonify(success_response)
         response.headers.add('Access-Control-Allow-Origin', '*')
