@@ -6,6 +6,8 @@ const initialState = {
   model: "",
   productionYear: "",
   color: "",
+  category: "",
+  leatherInterior: false,
 };
 
 export const homeSlice = createSlice({
@@ -33,10 +35,12 @@ export const homeSlice = createSlice({
     setColor: (state, action) => {
       state.color = action.payload;
     },
-
-    // incrementByAmount: (state, action) => {
-    //   state.value += action.payload;
-    // },
+    setCategory: (state, action) => {
+      state.category = action.payload;
+    },
+    setLeatherInterior: (state, action) => {
+      state.leatherInterior = action.payload;
+    },
   },
 });
 
@@ -49,6 +53,8 @@ export const {
   setModel,
   setProductionYear,
   setColor,
+  setCategory,
+  setLeatherInterior,
 } = homeSlice.actions;
 
 export default homeSlice.reducer;

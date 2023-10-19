@@ -20,7 +20,7 @@ const ColorCard = ({ colorName, url }) => {
     transition: "box-shadow 0.3s",
   };
 
-  const handleManufacturerSelect = () => {
+  const handleColorSelect = () => {
     if (selectedColor === colorName) {
       dispatcher(setColor(""));
       return;
@@ -36,35 +36,15 @@ const ColorCard = ({ colorName, url }) => {
         item
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        onClick={handleManufacturerSelect}
+        onClick={handleColorSelect}
         style={containerStyle}
       >
-        {/* <Grid
-          container
-          item
-          justifyContent="center"
-          alignItems="center"
-          height="85%"
-          //   padding="25px"
-          borderRadius="20px"
-        > */}
-        {/* <Box
-            height="100%"
-            width="100%"
-            bgcolor="white"
-            display="flex"
-            justifyContent="center"
-            alignItems="center"
-            borderRadius="15px"
-          > */}
         <img
           src={url}
           alt={colorName}
           loading="lazy"
           style={{ width: "100%", borderRadius: "20px" }}
         />
-        {/* </Box> */}
-        {/* </Grid> */}
       </Grid>
     </Grid>
   );
