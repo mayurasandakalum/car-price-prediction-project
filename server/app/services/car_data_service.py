@@ -1,4 +1,5 @@
 import json
+import webcolors
 
 
 class CarDataService:
@@ -15,7 +16,10 @@ class CarDataService:
     # load car data from json files
     def load_car_data(self):
         for key, value in self.file_paths.items():
-            self.car_info[key] = self.open_json_file(value)
+            if key == 'color':
+                self.car_info[key] = self.open_json_file(value)
+            else:
+                self.car_info[key] = self.open_json_file(value)
 
     # get manufacturer logo
     def get_manufacturer_logo(self, manufacturer_name):
@@ -45,8 +49,8 @@ class CarDataService:
         return self.car_info.get('models', [])
 
     # get colors
-    def get_colors(self):
-        return self.car_info.get('color', [])
+    def get_colors(self, param):
+        return self.car_info.get('color', []).get(param.upper())
 
     # get other properties
     def get_other_properties(self):
@@ -57,9 +61,9 @@ if __name__ == "__main__":
     file_paths = {
         'manufacturers': 'server/app/json_data/car_manufacturers.json',
         'models': 'server/app/json_data/car_models.json',
-        'color': 'server/app/json_data/car_colors.json',
+        'color': 'server/app/json_data/car_colors_apis.json',
         'car_other_properties': 'server/app/json_data/car_other_properties.json'
     }
     x = CarDataService(file_paths)
 
-    print(x.get_manufacturers())
+    # print(x.get_manufacturers())

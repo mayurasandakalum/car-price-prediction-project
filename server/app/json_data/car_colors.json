@@ -8,7 +8,7 @@
       "Blue",
       "Silver",
       "Grey",
-      "Golden",
+      "Gold",
       "Red",
       "Beige",
       "Brown",
@@ -24,11 +24,11 @@
       "Grey",
       "Green",
       "Red",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Brown",
-      "Golden",
+      "Gold",
       "Orange",
-      "Sky blue",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
       "Beige",
       "Purple",
       "Pink"
@@ -48,9 +48,9 @@
       "Brown",
       "White",
       "Blue",
-      "Golden",
-      "Sky blue",
-      "Carnelian red",
+      "Gold",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Beige",
       "Orange",
       "Pink",
@@ -89,7 +89,7 @@
       "Brown",
       "Red",
       "Green",
-      "Golden",
+      "Gold",
       "Purple"
     ]
   },
@@ -101,14 +101,14 @@
       "White",
       "Grey",
       "Black",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Green",
       "Yellow",
       "Brown",
       "Orange",
       "Silver",
       "Beige",
-      "Sky blue"
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } }
     ]
   },
   "FORD": {
@@ -117,13 +117,13 @@
       "Blue",
       "Silver",
       "Black",
-      "Sky blue",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
       "Grey",
       "Red",
       "Yellow",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Green",
-      "Golden",
+      "Gold",
       "Beige",
       "Brown",
       "Purple",
@@ -132,7 +132,14 @@
     ]
   },
   "GAZ": {
-    "colors": ["Black", "White", "Brown", "Green", "Yellow", "Sky blue"]
+    "colors": [
+      "Black",
+      "White",
+      "Brown",
+      "Green",
+      "Yellow",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } }
+    ]
   },
   "GMC": { "colors": ["Black", "White", "Silver", "Red", "Blue", "Green"] },
   "GREATWALL": { "colors": ["White"] },
@@ -147,12 +154,12 @@
       "Grey",
       "Red",
       "Brown",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Beige",
       "Yellow",
       "Purple",
-      "Golden",
-      "Sky blue",
+      "Gold",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
       "Orange",
       "Pink"
     ]
@@ -169,27 +176,34 @@
       "Yellow",
       "Red",
       "Beige",
-      "Carnelian red",
-      "Golden",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
+      "Gold",
       "Brown",
-      "Sky blue",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
       "Purple",
       "Green"
     ]
   },
   "INFINITI": {
-    "colors": ["Black", "Silver", "White", "Grey", "Golden", "Blue"]
+    "colors": ["Black", "Silver", "White", "Grey", "Gold", "Blue"]
   },
-  "ISUZU": { "colors": ["Carnelian red", "Blue", "Grey", "Black"] },
+  "ISUZU": {
+    "colors": [
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
+      "Blue",
+      "Grey",
+      "Black"
+    ]
+  },
   "JAGUAR": {
     "colors": [
       "White",
       "Red",
       "Green",
       "Black",
-      "Sky blue",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
       "Silver",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Blue",
       "Grey"
     ]
@@ -202,13 +216,13 @@
       "Red",
       "Silver",
       "White",
-      "Sky blue",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
       "Blue",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Brown",
       "Pink",
       "Beige",
-      "Golden"
+      "Gold"
     ]
   },
   "KIA": {
@@ -219,9 +233,9 @@
       "Grey",
       "Red",
       "Blue",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Beige",
-      "Golden",
+      "Gold",
       "Brown",
       "Purple"
     ]
@@ -235,8 +249,8 @@
       "Silver",
       "White",
       "Grey",
-      "Carnelian red",
-      "Sky blue"
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } }
     ]
   },
   "LEXUS": {
@@ -247,12 +261,12 @@
       "Grey",
       "Red",
       "Blue",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Beige",
       "Brown",
-      "Golden",
+      "Gold",
       "Green",
-      "Sky blue"
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } }
     ]
   },
   "LINCOLN": { "colors": ["Grey", "White", "Red", "Black", "Silver"] },
@@ -267,8 +281,8 @@
       "Grey",
       "White",
       "Brown",
-      "Carnelian red",
-      "Golden",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
+      "Gold",
       "Beige"
     ]
   },
@@ -279,12 +293,12 @@
       "Blue",
       "Grey",
       "Silver",
-      "Golden",
+      "Gold",
       "Beige",
       "Red",
       "Green",
-      "Sky blue",
-      "Carnelian red",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Yellow",
       "Purple",
       "Brown",
@@ -314,19 +328,26 @@
       "Blue",
       "Silver",
       "Brown",
-      "Sky blue",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
       "Black",
       "Green",
       "Grey",
       "Beige",
       "Purple",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Pink",
-      "Golden",
+      "Gold",
       "Orange"
     ]
   },
-  "MOSKVICH": { "colors": ["Blue", "Red", "Sky blue", "Beige"] },
+  "MOSKVICH": {
+    "colors": [
+      "Blue",
+      "Red",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
+      "Beige"
+    ]
+  },
   "NISSAN": {
     "colors": [
       "Black",
@@ -336,12 +357,12 @@
       "Silver",
       "Red",
       "Blue",
-      "Golden",
+      "Gold",
       "Beige",
       "Yellow",
       "Purple",
-      "Carnelian red",
-      "Sky blue",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
       "Green",
       "Orange"
     ]
@@ -355,13 +376,13 @@
       "Red",
       "Black",
       "Blue",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Purple",
       "Brown",
-      "Golden",
+      "Gold",
       "Grey",
       "Yellow",
-      "Sky blue",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
       "Pink"
     ]
   },
@@ -380,14 +401,28 @@
       "Silver",
       "Red",
       "Grey",
-      "Golden"
+      "Gold"
     ]
   },
   "ROLLS-ROYCE": { "colors": ["Silver", "White"] },
-  "ROVER": { "colors": ["Silver", "Carnelian red", "Beige"] },
+  "ROVER": {
+    "colors": [
+      "Silver",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
+      "Beige"
+    ]
+  },
   "SAAB": { "colors": ["Black"] },
   "SATURN": { "colors": ["Blue"] },
-  "SCION": { "colors": ["Silver", "Blue", "Grey", "Carnelian red", "White"] },
+  "SCION": {
+    "colors": [
+      "Silver",
+      "Blue",
+      "Grey",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
+      "White"
+    ]
+  },
   "SEAT": { "colors": ["Black", "Silver"] },
   "SKODA": { "colors": ["White", "Silver", "Black", "Grey"] },
   "SSANGYONG": {
@@ -395,14 +430,14 @@
       "Silver",
       "White",
       "Black",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Red",
       "Blue",
       "Grey",
       "Orange",
       "Brown",
       "Green",
-      "Golden"
+      "Gold"
     ]
   },
   "SUBARU": {
@@ -415,11 +450,11 @@
       "Beige",
       "Orange",
       "Red",
-      "Golden",
+      "Gold",
       "Green",
       "Brown",
-      "Carnelian red",
-      "Sky blue"
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } }
     ]
   },
   "SUZUKI": {
@@ -431,11 +466,11 @@
       "White",
       "Grey",
       "Red",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Blue",
-      "Golden",
+      "Gold",
       "Beige",
-      "Sky blue",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
       "Orange"
     ]
   },
@@ -445,15 +480,15 @@
       "Black",
       "Blue",
       "Silver",
-      "Sky blue",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
       "Grey",
       "Beige",
       "Red",
       "Green",
-      "Golden",
+      "Gold",
       "Brown",
       "Yellow",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Orange",
       "Pink",
       "Purple"
@@ -471,10 +506,10 @@
       "Silver",
       "Black",
       "Grey",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Purple",
       "Orange",
-      "Sky blue"
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } }
     ]
   },
   "VOLKSWAGEN": {
@@ -486,12 +521,12 @@
       "White",
       "Blue",
       "Red",
-      "Carnelian red",
+      { "Carnelian red": { "r": 179, "g": 27, "b": 27 } },
       "Pink",
       "Beige",
       "Purple",
-      "Golden",
-      "Sky blue",
+      "Gold",
+      { "Sky blue": { "r": 135, "g": 206, "b": 255 } },
       "Brown"
     ]
   },
