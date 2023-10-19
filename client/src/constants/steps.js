@@ -20,9 +20,9 @@ export const STEPS = [
     description: "Select the color of the product.",
   },
   {
-    index: "size",
-    label: "Select a Size",
-    description: "Choose the size of the product.",
+    index: "volume",
+    label: "Select a Engine Volume",
+    description: "Choose the engine volume of the product.",
   },
   {
     index: "category",

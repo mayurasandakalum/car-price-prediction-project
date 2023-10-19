@@ -16,6 +16,7 @@ import SelectManufacturer from "../selectManufacturer";
 import SelectModel from "../selectModel";
 import SelectYear from "../selectYear";
 import SelectColor from "../selectColor";
+import SelectEngineVolume from "../selectEngineVolume";
 
 const RightSideSteps = () => {
   const [manufacturers, setManufacturers] = useState();
@@ -71,6 +72,7 @@ const RightSideSteps = () => {
         {STEPS[activeStep].index === "model" && <SelectModel />}
         {STEPS[activeStep].index === "year" && <SelectYear />}
         {STEPS[activeStep].index === "color" && <SelectColor />}
+        {STEPS[activeStep].index === "volume" && <SelectEngineVolume />}
       </Box>
       <MobileStepper
         variant="progress"
