@@ -8,6 +8,7 @@ const initialState = {
   color: "",
   category: "",
   leatherInterior: false,
+  fuelType: "",
 };
 
 export const homeSlice = createSlice({
@@ -41,6 +42,9 @@ export const homeSlice = createSlice({
     setLeatherInterior: (state, action) => {
       state.leatherInterior = action.payload;
     },
+    setFuelType: (state, action) => {
+      state.fuelType = action.payload;
+    },
   },
 });
 
@@ -55,6 +59,7 @@ export const {
   setColor,
   setCategory,
   setLeatherInterior,
+  setFuelType,
 } = homeSlice.actions;
 
 export default homeSlice.reducer;
