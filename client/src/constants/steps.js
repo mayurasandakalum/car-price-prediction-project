@@ -54,4 +54,9 @@ export const STEPS = [
     label: "Choose a Wheels",
     description: "Select a Wheels for the product.",
   },
+  {
+    index: "levy",
+    label: "Choose a Levy",
+    description: "Select a Levy for the product.",
+  },
 ];

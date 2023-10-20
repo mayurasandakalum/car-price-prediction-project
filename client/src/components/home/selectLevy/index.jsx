@@ -1,7 +1,7 @@
 import { Box, Slider, styled } from "@mui/material";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { setVolume } from "../../../reducers/homeSlice";
+import { setLevy } from "../../../reducers/homeSlice";
 
 const PrettoSlider = styled(Slider)({
   color: "#52af77",
@@ -42,17 +42,17 @@ const PrettoSlider = styled(Slider)({
   },
 });
 
-const SelectEngineVolume = () => {
+const SelectLevy = () => {
   const dispatcher = useDispatch();
-  const selectedEngineVolume = useSelector((state) => state.home.volume);
+  const selectedLevy = useSelector((state) => state.home.levy);
 
-  const handleEngineVolumeChange = (event, newValue) => {
-    dispatcher(setVolume(newValue));
+  const handleLevyChange = (event, newValue) => {
+    dispatcher(setLevy(newValue));
   };
 
-  // useEffect(() => {
-  //   console.log("selectedEngineVolume:", selectedEngineVolume);
-  // }, [selectedEngineVolume]);
+  useEffect(() => {
+    console.log("selectedLevy:", selectedLevy);
+  }, [selectedLevy]);
 
   return (
     <Box
@@ -66,14 +66,13 @@ const SelectEngineVolume = () => {
     >
       <PrettoSlider
         sx={{ width: "50%" }}
-        max={20}
-        step={0.1}
+        max={12000}
         aria-label="Default"
         valueLabelDisplay="auto"
-        onChange={handleEngineVolumeChange}
+        onChange={handleLevyChange}
       />
     </Box>
   );
 };
 
-export default SelectEngineVolume;
+export default SelectLevy;

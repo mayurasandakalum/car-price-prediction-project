@@ -12,6 +12,8 @@ const initialState = {
   gearBoxType: "",
   driveWheel: "",
   wheel: "",
+  volume: 0,
+  levy: 0,
 };
 
 export const homeSlice = createSlice({
@@ -57,6 +59,12 @@ export const homeSlice = createSlice({
     setWheel: (state, action) => {
       state.wheel = action.payload;
     },
+    setVolume: (state, action) => {
+      state.volume = action.payload;
+    },
+    setLevy: (state, action) => {
+      state.levy = action.payload;
+    },
   },
 });
 
@@ -75,6 +83,8 @@ export const {
   setGearBoxType,
   setDriveWheel,
   setWheel,
+  setVolume,
+  setLevy,
 } = homeSlice.actions;
 
 export default homeSlice.reducer;
