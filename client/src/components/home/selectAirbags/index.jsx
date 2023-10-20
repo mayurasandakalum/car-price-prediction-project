@@ -71,6 +71,7 @@ const SelectAirbags = () => {
         aria-label="Default"
         valueLabelDisplay="auto"
         onChange={handleAirbagsChange}
+        value={selectedAirbags}
       />
       <Typography
         sx={{

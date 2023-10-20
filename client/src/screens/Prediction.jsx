@@ -25,12 +25,18 @@ const Prediction = () => {
       style={{
         height: "100%",
         display: "flex",
+        flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
       }}
     >
       <Typography sx={{ fontSize: "50px", fontFamily: "Patua One" }}>
         Predicted Price: {price.toFixed(2)}
+      </Typography>
+      <Typography
+        sx={{ fontSize: "30px", fontFamily: "Patua One", color: "blue" }}
+      >
+        Model Accuracy: {80.4178} %
       </Typography>
     </div>
   );

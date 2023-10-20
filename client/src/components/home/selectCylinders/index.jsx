@@ -71,6 +71,7 @@ const SelectCylinders = () => {
         aria-label="Default"
         valueLabelDisplay="auto"
         onChange={handleCylindersChange}
+        value={selectedCylinders}
       />
       <Typography
         sx={{

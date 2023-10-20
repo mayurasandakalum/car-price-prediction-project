@@ -17,7 +17,7 @@ class CarDataService:
         with open(file_path) as file:
             return json.load(file)
 
-    def load_model(self, model_path='./server/app/model/car_predictor.pickle'):
+    def load_model(self, model_path='./server/app/model/carpredictor.pickle'):
         try:
             with open(model_path, 'rb') as f:
                 self.model = pickle.load(f)

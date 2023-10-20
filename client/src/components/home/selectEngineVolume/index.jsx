@@ -71,6 +71,7 @@ const SelectEngineVolume = () => {
         step={0.1}
         aria-label="Default"
         valueLabelDisplay="auto"
+        value={selectedEngineVolume}
         onChange={handleEngineVolumeChange}
       />
       <Typography
