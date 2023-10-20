@@ -9,6 +9,9 @@ const initialState = {
   category: "",
   leatherInterior: false,
   fuelType: "",
+  gearBoxType: "",
+  driveWheel: "",
+  wheel: "",
 };
 
 export const homeSlice = createSlice({
@@ -45,6 +48,15 @@ export const homeSlice = createSlice({
     setFuelType: (state, action) => {
       state.fuelType = action.payload;
     },
+    setGearBoxType: (state, action) => {
+      state.gearBoxType = action.payload;
+    },
+    setDriveWheel: (state, action) => {
+      state.driveWheel = action.payload;
+    },
+    setWheel: (state, action) => {
+      state.wheel = action.payload;
+    },
   },
 });
 
@@ -60,6 +72,9 @@ export const {
   setCategory,
   setLeatherInterior,
   setFuelType,
+  setGearBoxType,
+  setDriveWheel,
+  setWheel,
 } = homeSlice.actions;
 
 export default homeSlice.reducer;
