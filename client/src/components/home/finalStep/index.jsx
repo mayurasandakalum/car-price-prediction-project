@@ -81,6 +81,7 @@ const FinalStep = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        mb: "100px",
       }}
     >
       <Button
@@ -90,8 +91,8 @@ const FinalStep = () => {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         sx={{
-          width: "300px",
-          height: "70px",
+          width: "350px",
+          height: "80px",
           borderRadius: "30px",
           bgcolor: "#545871",
           "&:hover": {
@@ -100,7 +101,7 @@ const FinalStep = () => {
             fontWeight: "bold",
           },
           textTransform: "none",
-          fontSize: "20px",
+          fontSize: "25px",
         }}
       >
         Start Prediction

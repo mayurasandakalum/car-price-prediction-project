@@ -13,6 +13,9 @@ const SelectWheel = () => {
       padding="30px 60px"
       justifyContent="center"
       alignItems="center"
+      sx={{
+        mb: "100px",
+      }}
     >
       {wheels &&
         wheels.map((wheel, index) => <WheelCard key={index} wheel={wheel} />)}

@@ -6,7 +6,7 @@ import RightSide from "../components/home/rightSide";
 const Home = () => {
   return (
     <Grid container height="100%">
-      <Grid item xs={4} bgcolor="rgb(84, 88, 113)">
+      <Grid item xs={4} bgcolor="rgb(1, 33, 72)">
         <LeftSide />
       </Grid>
       <Grid item xs={8} bgcolor="rgba(213, 208, 207)">

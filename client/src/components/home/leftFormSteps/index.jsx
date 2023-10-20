@@ -14,9 +14,15 @@ import { StepButton, styled } from "@mui/material";
 
 const StyledStepLabel = styled(StepLabel)({
   "& .MuiStepLabel-label": {
-    fontSize: "15px",
+    fontSize: "20px",
     fontWeight: "bold",
     color: "white",
+  },
+  "& .css-1hv8oq8-MuiStepLabel-label.Mui-active": {
+    color: "rgb(255, 226, 0)",
+  },
+  "& .css-1hv8oq8-MuiStepLabel-label.Mui-completed": {
+    color: "rgb(255, 226, 0)",
   },
 });
 

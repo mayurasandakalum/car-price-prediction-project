@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setVolume } from "../../../reducers/homeSlice";
 
 const PrettoSlider = styled(Slider)({
-  color: "#52af77",
+  color: "#012148",
   height: 8,
   "& .MuiSlider-track": {
     border: "none",
@@ -29,7 +29,7 @@ const PrettoSlider = styled(Slider)({
     width: 60,
     height: 60,
     borderRadius: "50% 50% 50% 0",
-    backgroundColor: "#52af77",
+    backgroundColor: "#012148",
     transformOrigin: "bottom left",
     transform: "translate(50%, -100%) rotate(-45deg) scale(0)",
     "&:before": { display: "none" },

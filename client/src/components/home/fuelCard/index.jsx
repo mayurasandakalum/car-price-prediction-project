@@ -11,7 +11,8 @@ const FuelCard = ({ fuelType }) => {
   const selectedFuelType = useSelector((state) => state.home.fuelType);
 
   const containerStyle = {
-    height: "280px",
+    height: "250px",
+    height: "250px",
     borderRadius: "20px",
     backgroundColor: "white",
     border: selectedFuelType === fuelType ? "3px solid blue" : "none",
