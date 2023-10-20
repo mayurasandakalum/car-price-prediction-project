@@ -60,6 +60,21 @@ export const STEPS = [
     description: "Select a Levy for the product.",
   },
   {
+    index: "cylinders",
+    label: "Choose a cylinders",
+    description: "Select a cylinders for the product.",
+  },
+  {
+    index: "doors",
+    label: "Choose a doors",
+    description: "Select a doors for the product.",
+  },
+  {
+    index: "airbags",
+    label: "Choose a airbags",
+    description: "Select a airbags for the product.",
+  },
+  {
     index: "final",
     label: "Final Step",
     description: "Final Step.",

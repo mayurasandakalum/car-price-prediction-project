@@ -18,6 +18,7 @@ const initialState = {
   cylinders: 0,
   doors: 0,
   airbags: 0,
+  predictedPrice: {},
 };
 
 export const homeSlice = createSlice({
@@ -78,6 +79,9 @@ export const homeSlice = createSlice({
     setAirbags: (state, action) => {
       state.airbags = action.payload;
     },
+    setPredictedPrice: (state, action) => {
+      state.predictedPrice = action.payload;
+    },
   },
 });
 
@@ -101,6 +105,7 @@ export const {
   setCylinders,
   setDoors,
   setAirbags,
+  setPredictedPrice,
 } = homeSlice.actions;
 
 export default homeSlice.reducer;

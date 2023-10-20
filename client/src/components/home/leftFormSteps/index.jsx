@@ -14,7 +14,7 @@ import { styled } from "@mui/material";
 
 const StyledStepLabel = styled(StepLabel)({
   "& .MuiStepLabel-label": {
-    fontSize: "20px",
+    fontSize: "15px",
     fontWeight: "bold",
   },
 });

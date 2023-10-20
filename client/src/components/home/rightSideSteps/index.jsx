@@ -24,7 +24,10 @@ import SelectGearBoxType from "../selectGearBoxType";
 import SelectDriveWheel from "../selectDriveWheel";
 import SelectWheel from "../selectWheel";
 import SelectLevy from "../selectLevy";
+import SelectCylinders from "../selectCylinders";
 import FinalStep from "../finalStep";
+import SelectDoors from "../selectDoors";
+import SelectAirbags from "../selectAirbags";
 
 const RightSideSteps = () => {
   const [manufacturers, setManufacturers] = useState();
@@ -90,6 +93,9 @@ const RightSideSteps = () => {
         {STEPS[activeStep].index === "drivewheel" && <SelectDriveWheel />}
         {STEPS[activeStep].index === "wheel" && <SelectWheel />}
         {STEPS[activeStep].index === "levy" && <SelectLevy />}
+        {STEPS[activeStep].index === "cylinders" && <SelectCylinders />}
+        {STEPS[activeStep].index === "doors" && <SelectDoors />}
+        {STEPS[activeStep].index === "airbags" && <SelectAirbags />}
         {STEPS[activeStep].index === "final" && <FinalStep />}
       </Box>
       <MobileStepper
