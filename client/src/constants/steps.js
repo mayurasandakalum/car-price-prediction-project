@@ -2,81 +2,90 @@ export const STEPS = [
   {
     index: "manufacturer",
     label: "Select a Manufacturer",
-    description: "Choose a manufacturer for the product.",
+    description:
+      "Explore renowned car manufacturers to begin the prediction journey.",
   },
   {
     index: "model",
     label: "Select a Model",
-    description: "Choose a specific model of the product.",
+    description: "Refine your prediction by choosing a specific car model.",
   },
   {
     index: "year",
-    label: "Select a Year",
-    description: "Select the year of the product.",
+    label: "Enter a Production Year",
+    description: "Specify the production year for precise pricing insights.",
   },
   {
     index: "color",
-    label: "Choose a Color",
-    description: "Select the color of the product.",
+    label: "Choose Car Color",
+    description: "Personalize the prediction with your preferred car color.",
   },
   {
     index: "volume",
-    label: "Select a Engine Volume",
-    description: "Choose the engine volume of the product.",
+    label: "Choose Car Engine Volume",
+    description:
+      "Determine pricing based on the engine power and size you desire.",
   },
   {
     index: "category",
-    label: "Choose a Category",
-    description: "Select a category for the product.",
+    label: "Choose Car Category",
+    description:
+      "Select a car category to tailor the prediction to your lifestyle.",
   },
   {
     index: "leatherinterior",
-    label: "Choose a Leather Interior",
-    description: "Select a Leather Interior for the product.",
+    label: "Leather Interior?",
+    description:
+      "Elevate the prediction by adding the luxury of leather interiors.",
   },
   {
     index: "fuel",
-    label: "Choose a Fuel Type",
-    description: "Select a Fuel Type for the product.",
+    label: "Select Fuel Type",
+    description:
+      "Factor in fuel type to get an accurate cost estimate for your vehicle.",
   },
   {
     index: "gearbox",
-    label: "Choose a Gear Box Type",
-    description: "Select a Gear Box Type for the product.",
+    label: "Select Gear Box Type",
+    description: "Fine-tune your prediction with the right gear box selection.",
   },
   {
     index: "drivewheel",
-    label: "Choose a Drive Wheels",
-    description: "Select a Drive Wheels for the product.",
+    label: "Choose Car Drive Wheels",
+    description:
+      "Optimize the prediction based on your preferred drive wheel type.",
   },
   {
     index: "wheel",
     label: "Choose a Wheels",
-    description: "Select a Wheels for the product.",
+    description:
+      "Enhance the style and pricing estimate with the perfect wheels.",
   },
   {
     index: "levy",
-    label: "Choose a Levy",
-    description: "Select a Levy for the product.",
+    label: "Select Levy count",
+    description: "Include any applicable levies in your car price prediction.",
   },
   {
     index: "cylinders",
-    label: "Choose a cylinders",
-    description: "Select a cylinders for the product.",
+    label: "Select Cylinders Count",
+    description: "Fine-tune the prediction with the right number of cylinders.",
   },
   {
     index: "doors",
-    label: "Choose a doors",
-    description: "Select a doors for the product.",
+    label: "Select door type",
+    description: "Customize the prediction by choosing the ideal door type.",
   },
   {
     index: "airbags",
-    label: "Choose a airbags",
-    description: "Select a airbags for the product.",
+    label: "Select airbags count",
+    description:
+      "Prioritize safety by specifying the number of airbags in your prediction.",
   },
   {
     index: "final",
     label: "Final Step",
-    description: "Final Step.",
+    description:
+      "Review your selections and receive an accurate car price prediction.",
   },
 ];

@@ -1,4 +1,4 @@
-import { Box, Slider, styled } from "@mui/material";
+import { Box, Slider, Typography, styled } from "@mui/material";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setCylinders } from "../../../reducers/homeSlice";
@@ -44,7 +44,7 @@ const PrettoSlider = styled(Slider)({
 
 const SelectCylinders = () => {
   const dispatcher = useDispatch();
-  const selectedCylinders = useSelector((state) => state.home.volume);
+  const selectedCylinders = useSelector((state) => state.home.cylinders);
 
   const handleCylindersChange = (event, newValue) => {
     dispatcher(setCylinders(newValue));
@@ -58,6 +58,7 @@ const SelectCylinders = () => {
     <Box
       sx={{
         display: "flex",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
@@ -71,6 +72,16 @@ const SelectCylinders = () => {
         valueLabelDisplay="auto"
         onChange={handleCylindersChange}
       />
+      <Typography
+        sx={{
+          mt: "50px",
+          fontSize: "30px",
+          fontWeight: "bold",
+          color: "#545871",
+        }}
+      >
+        No. of Cylinders: {selectedCylinders}
+      </Typography>
     </Box>
   );
 };

@@ -1,13 +1,14 @@
 import { Box, Button } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { predictCarPrice } from "../../../services/api";
 import { setPredictedPrice } from "../../../reducers/homeSlice";
 
 const FinalStep = () => {
-  // const [predictedPrice, setPredictedPrice] = useState();
+  const [isHovered, setIsHovered] = useState(false);
   const dispatcher = useDispatch();
+  const navigate = useNavigate();
 
   const selectedManufacturer = useSelector((state) => state.home.manufacturer);
   const selectedModel = useSelector((state) => state.home.model);
@@ -55,7 +56,14 @@ const FinalStep = () => {
     try {
       const price = await predictCarPrice(finalValues);
       dispatcher(setPredictedPrice(price));
+      if (price) {
+        localStorage.setItem("predictedPrice", price.data.predictedPrice);
+        setTimeout(() => {
+          navigate("/predict");
+        }, 2000);
+      }
     } catch (error) {
+      alert("Error predicting car price");
       console.error("Error predicting car price:", error);
     }
   };
@@ -74,11 +82,28 @@ const FinalStep = () => {
         alignItems: "center",
       }}
     >
-      {/* <Link to="/predict"> */}
-      <Button variant="contained" disableElevation onClick={handlePrediction}>
+      <Button
+        variant="contained"
+        disableElevation
+        onClick={handlePrediction}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        sx={{
+          width: "300px",
+          height: "70px",
+          borderRadius: "30px",
+          bgcolor: "#545871",
+          "&:hover": {
+            backgroundColor: "#ffffff",
+            color: "#545871",
+            fontWeight: "bold",
+          },
+          textTransform: "none",
+          fontSize: "20px",
+        }}
+      >
         Start Prediction
       </Button>
-      {/* </Link> */}
     </Box>
   );
 };

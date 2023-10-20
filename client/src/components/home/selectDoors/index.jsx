@@ -6,7 +6,14 @@ const doors = ["02-mar", "04-may", ">5"];
 
 const SelectDoors = () => {
   return (
-    <Grid container spacing={2} xs={12} padding="30px 60px">
+    <Grid
+      container
+      spacing={2}
+      xs={12}
+      padding="30px 60px"
+      justifyContent="center"
+      alignItems="center"
+    >
       {doors &&
         doors.map((door, index) => <DoorCard key={index} door={door} />)}
     </Grid>

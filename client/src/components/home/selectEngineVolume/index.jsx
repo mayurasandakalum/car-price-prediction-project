@@ -1,4 +1,4 @@
-import { Box, Slider, styled } from "@mui/material";
+import { Box, Slider, Typography, styled } from "@mui/material";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setVolume } from "../../../reducers/homeSlice";
@@ -58,6 +58,7 @@ const SelectEngineVolume = () => {
     <Box
       sx={{
         display: "flex",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
@@ -72,6 +73,16 @@ const SelectEngineVolume = () => {
         valueLabelDisplay="auto"
         onChange={handleEngineVolumeChange}
       />
+      <Typography
+        sx={{
+          mt: "50px",
+          fontSize: "30px",
+          fontWeight: "bold",
+          color: "#545871",
+        }}
+      >
+        Engine Volume: {selectedEngineVolume}
+      </Typography>
     </Box>
   );
 };

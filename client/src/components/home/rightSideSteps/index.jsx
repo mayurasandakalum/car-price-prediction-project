@@ -38,9 +38,9 @@ const RightSideSteps = () => {
   const activeStep = useSelector((state) => state.home.value);
   const selectedManufacturer = useSelector((state) => state.home.manufacturer);
 
-  useEffect(() => {
-    console.log("selectedManufacturer:", selectedManufacturer);
-  }, [selectedManufacturer]);
+  // useEffect(() => {
+  //   console.log("selectedManufacturer:", selectedManufacturer);
+  // }, [selectedManufacturer]);
 
   const handleNext = () => {
     dispatch(next());
@@ -75,7 +75,17 @@ const RightSideSteps = () => {
           overflow: "auto",
         }}
       >
-        <Typography>{STEPS[activeStep].description}</Typography>
+        <Box sx={{ mx: "100px", mt: "20px" }}>
+          <Typography
+            sx={{
+              fontFamily: "Patua One",
+              fontSize: "50px",
+              textAlign: "center",
+            }}
+          >
+            {STEPS[activeStep].description}
+          </Typography>
+        </Box>
 
         {STEPS[activeStep].index === "manufacturer" && (
           <SelectManufacturer manufacturers={manufacturers} />
@@ -109,22 +119,39 @@ const RightSideSteps = () => {
             size="small"
             onClick={handleNext}
             disabled={activeStep === STEPS.length - 1}
+            sx={{
+              mr: "20px",
+              borderRadius: "30px",
+              bgcolor: "#545871",
+              color: "white",
+              textTransform: "none",
+              "&:hover": {
+                bgcolor: "#545871",
+                color: "white",
+              },
+            }}
           >
             Next
-            {theme.direction === "rtl" ? (
-              <KeyboardArrowLeft />
-            ) : (
-              <KeyboardArrowRight />
-            )}
           </Button>
         }
         backButton={
-          <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
-            {theme.direction === "rtl" ? (
-              <KeyboardArrowRight />
-            ) : (
-              <KeyboardArrowLeft />
-            )}
+          <Button
+            size="small"
+            onClick={handleBack}
+            disabled={activeStep === 0}
+            sx={{
+              ml: "20px",
+              borderRadius: "30px",
+              bgcolor: "white",
+              color: "#545871",
+              textTransform: "none",
+              border: "1px solid #545871",
+              "&:hover": {
+                bgcolor: "white",
+                color: "#545871",
+              },
+            }}
+          >
             Back
           </Button>
         }

@@ -1,4 +1,4 @@
-import { Box, Slider, styled } from "@mui/material";
+import { Box, Slider, Typography, styled } from "@mui/material";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setAirbags } from "../../../reducers/homeSlice";
@@ -44,7 +44,7 @@ const PrettoSlider = styled(Slider)({
 
 const SelectAirbags = () => {
   const dispatcher = useDispatch();
-  const selectedAirbags = useSelector((state) => state.home.volume);
+  const selectedAirbags = useSelector((state) => state.home.airbags);
 
   const handleAirbagsChange = (event, newValue) => {
     dispatcher(setAirbags(newValue));
@@ -58,6 +58,7 @@ const SelectAirbags = () => {
     <Box
       sx={{
         display: "flex",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
@@ -71,6 +72,16 @@ const SelectAirbags = () => {
         valueLabelDisplay="auto"
         onChange={handleAirbagsChange}
       />
+      <Typography
+        sx={{
+          mt: "50px",
+          fontSize: "30px",
+          fontWeight: "bold",
+          color: "#545871",
+        }}
+      >
+        No. of Airbags: {selectedAirbags}
+      </Typography>
     </Box>
   );
 };

@@ -1,4 +1,4 @@
-import { Box, Slider, styled } from "@mui/material";
+import { Box, Slider, Typography, styled } from "@mui/material";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setLevy } from "../../../reducers/homeSlice";
@@ -50,14 +50,15 @@ const SelectLevy = () => {
     dispatcher(setLevy(newValue));
   };
 
-  useEffect(() => {
-    console.log("selectedLevy:", selectedLevy);
-  }, [selectedLevy]);
+  // useEffect(() => {
+  //   console.log("selectedLevy:", selectedLevy);
+  // }, [selectedLevy]);
 
   return (
     <Box
       sx={{
         display: "flex",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
@@ -71,6 +72,16 @@ const SelectLevy = () => {
         valueLabelDisplay="auto"
         onChange={handleLevyChange}
       />
+      <Typography
+        sx={{
+          mt: "50px",
+          fontSize: "30px",
+          fontWeight: "bold",
+          color: "#545871",
+        }}
+      >
+        Levy: {selectedLevy}
+      </Typography>
     </Box>
   );
 };

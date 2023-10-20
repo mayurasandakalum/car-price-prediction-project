@@ -28,9 +28,9 @@ const SelectLeatherInterior = () => {
     }
   };
 
-  useEffect(() => {
-    console.log("selectedLeatherInterior:", selectedLeatherInterior);
-  }, [selectedLeatherInterior]);
+  // useEffect(() => {
+  //   console.log("selectedLeatherInterior:", selectedLeatherInterior);
+  // }, [selectedLeatherInterior]);
 
   return (
     <Box
