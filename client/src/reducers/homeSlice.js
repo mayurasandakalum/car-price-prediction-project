@@ -2,18 +2,22 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   value: 0,
+
   manufacturer: "",
   model: "",
   productionYear: "",
   color: "",
   category: "",
-  leatherInterior: false,
+  leatherInterior: 0,
   fuelType: "",
   gearBoxType: "",
   driveWheel: "",
   wheel: "",
-  volume: 0,
+  volume: 0.0,
   levy: 0,
+  cylinders: 0,
+  doors: 0,
+  airbags: 0,
 };
 
 export const homeSlice = createSlice({
@@ -65,6 +69,15 @@ export const homeSlice = createSlice({
     setLevy: (state, action) => {
       state.levy = action.payload;
     },
+    setCylinders: (state, action) => {
+      state.cylinders = action.payload;
+    },
+    setDoors: (state, action) => {
+      state.doors = action.payload;
+    },
+    setAirbags: (state, action) => {
+      state.airbags = action.payload;
+    },
   },
 });
 
@@ -85,6 +98,9 @@ export const {
   setWheel,
   setVolume,
   setLevy,
+  setCylinders,
+  setDoors,
+  setAirbags,
 } = homeSlice.actions;
 
 export default homeSlice.reducer;

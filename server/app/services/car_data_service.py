@@ -1,11 +1,12 @@
 import json
-import webcolors
+import datetime
 
 
 class CarDataService:
     def __init__(self, file_paths):
         self.file_paths = file_paths
         self.car_info = {}
+        self.label_encodings = {}
         self.load_car_data()
 
     # open json file
@@ -20,6 +21,9 @@ class CarDataService:
                 self.car_info[key] = self.open_json_file(value)
             else:
                 self.car_info[key] = self.open_json_file(value)
+
+        self.label_encodings = self.open_json_file(
+            'server/app/json_data/label_encodings_2.json')
 
     # get manufacturer logo
     def get_manufacturer_logo(self, manufacturer_name):
@@ -56,6 +60,52 @@ class CarDataService:
     def get_other_properties(self):
         return self.car_info.get('car_other_properties', [])
 
+    def get_encodings(self, data: dict):
+        # check manufacturer
+        data['manufacturer'] = self.label_encodings.get('manufacturer').get(
+            data['manufacturer'].lower())
+
+        # check model
+        data['model'] = self.label_encodings.get('model').get(
+            data['model'].lower())
+
+        # check production year
+        current_year = datetime.datetime.now().year
+        data['lifetime'] = current_year - data['productionYear']
+        data.pop('productionYear')
+
+        # check color
+        data['color'] = self.label_encodings.get('color').get(
+            data['color'].lower())
+
+        # check category
+        data['category'] = self.label_encodings.get('category').get(
+            data['category'].lower())
+
+        # # check leather interior
+        # if data['leatherInterior']:
+        #     data['leatherInterior'] = 1
+        # else:
+        #     data['leatherInterior'] = 0
+
+        # check fuel type
+        data['fuelType'] = self.label_encodings.get('fuel type').get(
+            data['fuelType'].lower())
+
+        # check gear box type
+        data['gearBoxType'] = self.label_encodings.get('gear box type').get(
+            data['gearBoxType'].lower())
+
+        # check drive wheel
+        data['driveWheel'] = self.label_encodings.get('drive wheel').get(
+            data['driveWheel'].lower())
+
+        # check wheel
+        data['wheel'] = self.label_encodings.get('wheel').get(
+            data['wheel'].lower())
+
+        print(list(data.values()))
+
 
 if __name__ == "__main__":
     file_paths = {
@@ -66,4 +116,20 @@ if __name__ == "__main__":
     }
     x = CarDataService(file_paths)
 
-    # print(x.get_manufacturers())
+    # x.get_encodings({
+    #     "manufacturer": "porsche",
+    #     "model": "airtrek",
+    #     "productionYear": 1999,
+    #     "color": "Carnelian red",
+    #     "category": "Goods wagon",
+    #     "leatherInterior": 1,
+    #     "fuelType": "LPG",
+    #     "gearBoxType": "Variator",
+    #     "driveWheel": "4x4",
+    #     "wheel": "Left wheel",
+    #     "volume": 12.3,
+    #     "levy": 6404,
+    #     "cylinders"
+    #     doors
+    #     airbags
+    # })

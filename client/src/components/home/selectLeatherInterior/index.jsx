@@ -22,9 +22,9 @@ const SelectLeatherInterior = () => {
     const value = event.target.value;
 
     if (value.toLowerCase() === "yes") {
-      dispatcher(setLeatherInterior(true));
+      dispatcher(setLeatherInterior(1));
     } else {
-      dispatcher(setLeatherInterior(false));
+      dispatcher(setLeatherInterior(0));
     }
   };
 

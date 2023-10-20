@@ -2,6 +2,7 @@ from flask import jsonify
 from app import app
 from app.services.response_service import ResponseService
 from app.services.car_data_service import CarDataService
+import pickle
 
 # file paths for json data
 file_paths = {
@@ -85,7 +86,7 @@ def get_colors(param):
         return response, 400
 
 
-@app.route('/api/car_other_props', methods=['GET'])
+@app.route('/api/car-other-props', methods=['GET'])
 def get_other_props():
     try:
         result_data = car_data_service.get_other_properties()
@@ -104,3 +105,8 @@ def get_other_props():
         response.headers.add('Access-Control-Allow-Origin', '*')
 
         return response, 400
+
+
+@app.route('/api/predict-car-price', methods=['POST'])
+def predict_car_price():
+    pass
