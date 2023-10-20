@@ -4,6 +4,7 @@ import { Navigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Lottie from "lottie-react";
 import congratsAnime from "../assets/lotties/congrats_anime.json";
+import backgroundImage from "../assets/bg.jpg";
 
 const Prediction = () => {
   const [price, setPrice] = useState(0);
@@ -27,11 +28,14 @@ const Prediction = () => {
   return (
     <div
       style={{
-        height: "100%",
+        height: "100vh",
+        width: "100%",
         display: "flex",
         flexDirection: "column",
-        alignItems: "center",
+        alignItems: "start",
         justifyContent: "center",
+        background: `url(${backgroundImage}) no-repeat`,
+        backgroundSize: "cover",
       }}
     >
       {!animationComplete && (
@@ -43,16 +47,26 @@ const Prediction = () => {
       )}
 
       {animationComplete && (
-        <>
-          <Typography sx={{ fontSize: "50px", fontFamily: "Patua One" }}>
-            Predicted Price: {price.toFixed(2)}
+        <div
+          style={{
+            marginLeft: "200px",
+          }}
+        >
+          <Typography
+            sx={{
+              fontSize: "60px",
+              fontFamily: "Patua One",
+              color: "white",
+            }}
+          >
+            Predicted Price: {price.toFixed(2)} €
           </Typography>
           <Typography
-            sx={{ fontSize: "30px", fontFamily: "Patua One", color: "blue" }}
+            sx={{ fontSize: "34px", fontFamily: "Patua One", color: "#72c569" }}
           >
             Model Accuracy: {80.4178} %
           </Typography>
-        </>
+        </div>
       )}
     </div>
   );

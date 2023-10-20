@@ -14,7 +14,7 @@ const DoorCard = ({ door }) => {
     height: "280px",
     borderRadius: "20px",
     backgroundColor: "white",
-    border: selectedDoor === door ? "3px solid blue" : "none",
+    border: selectedDoor === door ? "3px solid #012148" : "none",
     boxShadow: isHovered ? "0px 10px 20px 10px rgba(0, 0, 0, 0.1)" : "none",
     transition: "box-shadow 0.3s",
   };
@@ -55,7 +55,7 @@ const DoorCard = ({ door }) => {
             alignItems: "center",
           }}
         >
-          <Typography sx={{ fontWeight: "bold", fontSize: "25px" }}>
+          <Typography sx={{ fontWeight: "bold", fontSize: "27px" }}>
             {door}
           </Typography>
         </Grid>

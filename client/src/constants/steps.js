@@ -74,8 +74,8 @@ export const STEPS = [
   },
   {
     index: "doors",
-    label: "Select door type",
-    description: "Customize the prediction by choosing the ideal door type.",
+    label: "Select a door type",
+    description: "Customize the prediction by choosing the ideal doors.",
   },
   {
     index: "airbags",
