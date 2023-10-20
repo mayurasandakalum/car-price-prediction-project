@@ -59,4 +59,9 @@ export const STEPS = [
     label: "Choose a Levy",
     description: "Select a Levy for the product.",
   },
+  {
+    index: "final",
+    label: "Final Step",
+    description: "Final Step.",
+  },
 ];

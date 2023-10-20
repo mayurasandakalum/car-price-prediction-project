@@ -24,6 +24,7 @@ import SelectGearBoxType from "../selectGearBoxType";
 import SelectDriveWheel from "../selectDriveWheel";
 import SelectWheel from "../selectWheel";
 import SelectLevy from "../selectLevy";
+import FinalStep from "../finalStep";
 
 const RightSideSteps = () => {
   const [manufacturers, setManufacturers] = useState();
@@ -89,6 +90,7 @@ const RightSideSteps = () => {
         {STEPS[activeStep].index === "drivewheel" && <SelectDriveWheel />}
         {STEPS[activeStep].index === "wheel" && <SelectWheel />}
         {STEPS[activeStep].index === "levy" && <SelectLevy />}
+        {STEPS[activeStep].index === "final" && <FinalStep />}
       </Box>
       <MobileStepper
         variant="progress"
