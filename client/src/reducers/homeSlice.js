@@ -14,7 +14,7 @@ const initialState = {
   driveWheel: "",
   wheel: "",
   volume: 0.0,
-  levy: 0,
+  mileage: 0,
   cylinders: 0,
   doors: 0,
   airbags: 0,
@@ -67,8 +67,8 @@ export const homeSlice = createSlice({
     setVolume: (state, action) => {
       state.volume = action.payload;
     },
-    setLevy: (state, action) => {
-      state.levy = action.payload;
+    setMileage: (state, action) => {
+      state.mileage = action.payload;
     },
     setCylinders: (state, action) => {
       state.cylinders = action.payload;
@@ -101,7 +101,7 @@ export const {
   setDriveWheel,
   setWheel,
   setVolume,
-  setLevy,
+  setMileage,
   setCylinders,
   setDoors,
   setAirbags,

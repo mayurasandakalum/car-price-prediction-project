@@ -110,10 +110,10 @@ def get_other_props():
 def predict_car_price():
     if request.is_json:
         data = request.get_json()
-        print("Received JSON data:")
+        # print("Received JSON data:")
     else:
         data = request.form.to_dict()
-        print("Received form data:")
+        # print("Received form data:")
 
     print("data:", data)
 

@@ -62,9 +62,10 @@ export const STEPS = [
       "Enhance the style and pricing estimate with the perfect wheels.",
   },
   {
-    index: "levy",
-    label: "Select Levy count",
-    description: "Include any applicable levies in your car price prediction.",
+    index: "mileage",
+    label: "Select Mileage count",
+    description:
+      "Input the total distance your car has traveled to refine your price prediction. Mileage affects value!",
   },
   {
     index: "cylinders",

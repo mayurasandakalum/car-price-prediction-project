@@ -121,7 +121,7 @@ class CarDataService:
 
         desired_order = [
             'levy', 'manufacturer', 'model', 'category', 'leatherinterior',
-            'fueltype', 'volume', 'cylinders', 'gearboxtype', 'drivewheel',
+            'fueltype', 'volume', 'mileage', 'cylinders', 'gearboxtype', 'drivewheel',
             'doors', 'wheel', 'color', 'airbags', 'lifetime'
         ]
 

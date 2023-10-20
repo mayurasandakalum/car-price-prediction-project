@@ -25,7 +25,7 @@ const FinalStep = () => {
   const selectedDriveWheel = useSelector((state) => state.home.driveWheel);
   const selectedWheel = useSelector((state) => state.home.wheel);
   const selectedVolume = useSelector((state) => state.home.volume);
-  const selectedLevy = useSelector((state) => state.home.levy);
+  const selectedMileage = useSelector((state) => state.home.mileage);
   const selectedCylinders = useSelector((state) => state.home.cylinders);
   const selectedDoors = useSelector((state) => state.home.doors);
   const selectedAirbags = useSelector((state) => state.home.airbags);
@@ -45,10 +45,11 @@ const FinalStep = () => {
       driveWheel: selectedDriveWheel,
       wheel: selectedWheel,
       volume: selectedVolume,
-      levy: selectedLevy,
+      mileage: selectedMileage,
       cylinders: selectedCylinders,
       doors: selectedDoors,
       airbags: selectedAirbags,
+      levy: 632.06,
     };
 
     console.log("finalValues:", finalValues);
@@ -68,9 +69,9 @@ const FinalStep = () => {
     }
   };
 
-  useEffect(() => {
-    console.log("predictedPrice:", predictedPrice);
-  }, [predictedPrice]);
+  // useEffect(() => {
+  //   console.log("predictedPrice:", predictedPrice);
+  // }, [predictedPrice]);
 
   return (
     <Box
