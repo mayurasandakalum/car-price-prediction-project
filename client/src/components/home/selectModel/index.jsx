@@ -34,7 +34,15 @@ const SelectModel = () => {
   //   }, [model]);
 
   return (
-    <div>
+    <div
+      style={{
+        height: "100%",
+        width: "100%",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <Autocomplete
         disablePortal
         onChange={(event, newValue) => {

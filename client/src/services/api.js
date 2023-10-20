@@ -32,3 +32,13 @@ export const getColors = async (manufacturer) => {
     throw error;
   }
 };
+
+export const predictCarPrice = async (data) => {
+  try {
+    const response = await api.post("/api/predict-car-price", data);
+    const predictedPrice = response.data;
+    return predictedPrice;
+  } catch (error) {
+    throw error;
+  }
+};

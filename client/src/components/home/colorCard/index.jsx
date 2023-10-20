@@ -11,11 +11,11 @@ const ColorCard = ({ colorName, url }) => {
   const selectedColor = useSelector((state) => state.home.color);
 
   const containerStyle = {
-    height: "250px",
-    width: "250px",
+    height: "200px",
+    width: "200px",
     borderRadius: "25px",
     backgroundColor: "white",
-    border: selectedColor === colorName ? "5px solid blue" : "none",
+    border: selectedColor === colorName ? "5px solid #012148" : "none",
     boxShadow: isHovered ? "0px 10px 20px 10px rgba(0, 0, 0, 0.1)" : "none",
     transition: "box-shadow 0.3s",
   };

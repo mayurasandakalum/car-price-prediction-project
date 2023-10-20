@@ -10,12 +10,19 @@ import { useSelector, useDispatch } from "react-redux";
 
 import { reset } from "../../../reducers/homeSlice";
 import { STEPS } from "../../../constants/steps";
-import { styled } from "@mui/material";
+import { StepButton, styled } from "@mui/material";
 
 const StyledStepLabel = styled(StepLabel)({
   "& .MuiStepLabel-label": {
     fontSize: "20px",
     fontWeight: "bold",
+    color: "white",
+  },
+  "& .css-1hv8oq8-MuiStepLabel-label.Mui-active": {
+    color: "rgb(255, 226, 0)",
+  },
+  "& .css-1hv8oq8-MuiStepLabel-label.Mui-completed": {
+    color: "rgb(255, 226, 0)",
   },
 });
 
@@ -31,7 +38,7 @@ const LeftFormSteps = () => {
     <Box>
       <Stepper activeStep={activeStep} orientation="vertical">
         {STEPS.map((step, index) => (
-          <Step key={step.label}>
+          <Step key={step.label} sx={{}}>
             <StyledStepLabel
               optional={
                 index === STEPS.length - 1 ? (
@@ -65,14 +72,14 @@ const LeftFormSteps = () => {
           </Step>
         ))}
       </Stepper>
-      {activeStep === STEPS.length - 1 && (
+      {/* {activeStep === STEPS.length - 1 && (
         <Paper square elevation={0} sx={{ p: 3 }}>
           <Typography>All steps completed - you&apos;re finished</Typography>
           <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }}>
             Reset
           </Button>
         </Paper>
-      )}
+      )} */}
     </Box>
   );
 };

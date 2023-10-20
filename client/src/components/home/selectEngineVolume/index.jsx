@@ -1,8 +1,10 @@
-import { Box, Slider, styled } from "@mui/material";
-import React from "react";
+import { Box, Slider, Typography, styled } from "@mui/material";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { setVolume } from "../../../reducers/homeSlice";
 
 const PrettoSlider = styled(Slider)({
-  color: "#52af77",
+  color: "#012148",
   height: 8,
   "& .MuiSlider-track": {
     border: "none",
@@ -27,7 +29,7 @@ const PrettoSlider = styled(Slider)({
     width: 60,
     height: 60,
     borderRadius: "50% 50% 50% 0",
-    backgroundColor: "#52af77",
+    backgroundColor: "#012148",
     transformOrigin: "bottom left",
     transform: "translate(50%, -100%) rotate(-45deg) scale(0)",
     "&:before": { display: "none" },
@@ -41,10 +43,22 @@ const PrettoSlider = styled(Slider)({
 });
 
 const SelectEngineVolume = () => {
+  const dispatcher = useDispatch();
+  const selectedEngineVolume = useSelector((state) => state.home.volume);
+
+  const handleEngineVolumeChange = (event, newValue) => {
+    dispatcher(setVolume(newValue));
+  };
+
+  // useEffect(() => {
+  //   console.log("selectedEngineVolume:", selectedEngineVolume);
+  // }, [selectedEngineVolume]);
+
   return (
     <Box
       sx={{
         display: "flex",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
@@ -57,7 +71,19 @@ const SelectEngineVolume = () => {
         step={0.1}
         aria-label="Default"
         valueLabelDisplay="auto"
+        value={selectedEngineVolume}
+        onChange={handleEngineVolumeChange}
       />
+      <Typography
+        sx={{
+          mt: "50px",
+          fontSize: "30px",
+          fontWeight: "bold",
+          color: "#545871",
+        }}
+      >
+        Engine Volume: {selectedEngineVolume}
+      </Typography>
     </Box>
   );
 };

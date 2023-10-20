@@ -6,7 +6,17 @@ const wheels = ["Left wheel", "Right-hand drive"];
 
 const SelectWheel = () => {
   return (
-    <Grid container spacing={2} xs={12} padding="30px 60px">
+    <Grid
+      container
+      spacing={2}
+      xs={12}
+      padding="30px 60px"
+      justifyContent="center"
+      alignItems="center"
+      sx={{
+        mb: "100px",
+      }}
+    >
       {wheels &&
         wheels.map((wheel, index) => <WheelCard key={index} wheel={wheel} />)}
     </Grid>

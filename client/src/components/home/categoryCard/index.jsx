@@ -11,10 +11,10 @@ const CategoryCard = ({ categoryName }) => {
   const selectedCategory = useSelector((state) => state.home.category);
 
   const containerStyle = {
-    height: "280px",
+    height: "200px",
     borderRadius: "20px",
     backgroundColor: "white",
-    border: selectedCategory === categoryName ? "3px solid blue" : "none",
+    border: selectedCategory === categoryName ? "3px solid #012148" : "none",
     boxShadow: isHovered ? "0px 10px 20px 10px rgba(0, 0, 0, 0.1)" : "none",
     transition: "box-shadow 0.3s",
   };

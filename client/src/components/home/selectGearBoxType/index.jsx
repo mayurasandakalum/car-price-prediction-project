@@ -6,12 +6,18 @@ const gearBoxes = ["Automatic", "Tiptronic", "Variator", "Manual"];
 
 const SelectGearBoxType = () => {
   return (
-    <Grid container spacing={2} xs={12} padding="30px 60px">
+    <Grid
+      container
+      spacing={2}
+      xs={12}
+      padding="30px 60px"
+      justifyContent="center"
+      alignItems="center"
+    >
       {gearBoxes &&
         gearBoxes.map((gearBox, index) => (
           <GearBoxCard key={index} gearBoxType={gearBox} />
         ))}
-      vf
     </Grid>
   );
 };

@@ -22,9 +22,9 @@ const SelectColor = () => {
     fetchData();
   }, []);
 
-  useEffect(() => {
-    console.log("colors:", colors);
-  }, [colors]);
+  // useEffect(() => {
+  //   console.log("colors:", colors);
+  // }, [colors]);
 
   {
     /* <div className="color-icons">

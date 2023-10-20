@@ -11,21 +11,37 @@ const SelectYear = () => {
   const dispatcher = useDispatch();
   const productionYear = useSelector((state) => state.home.productionYear);
 
-  useEffect(() => {
-    console.log("productionYear:", productionYear);
-  }, [productionYear]);
+  // useEffect(() => {
+  //   console.log("productionYear:", productionYear);
+  // }, [productionYear]);
 
   return (
-    <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <DemoContainer components={["DatePicker", "DatePicker"]}>
-        <DatePicker
-          label={'"year"'}
-          openTo="year"
-          views={["year"]}
-          onChange={(date) => dispatcher(setProductionYear(date.year()))}
-        />
-      </DemoContainer>
-    </LocalizationProvider>
+    <div
+      style={{
+        height: "100%",
+        width: "100%",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <LocalizationProvider dateAdapter={AdapterDayjs}>
+        <DemoContainer components={["DatePicker", "DatePicker"]}>
+          <DatePicker
+            label={'"year"'}
+            openTo="year"
+            views={["year"]}
+            onChange={(date) => dispatcher(setProductionYear(date.year()))}
+          />
+        </DemoContainer>
+      </LocalizationProvider>
+      <div
+        style={{
+          height: "300px",
+        }}
+      ></div>
+    </div>
   );
 };
 

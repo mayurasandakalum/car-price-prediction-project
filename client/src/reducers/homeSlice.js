@@ -2,16 +2,23 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   value: 0,
+
   manufacturer: "",
   model: "",
   productionYear: "",
   color: "",
   category: "",
-  leatherInterior: false,
+  leatherInterior: 0,
   fuelType: "",
   gearBoxType: "",
   driveWheel: "",
   wheel: "",
+  volume: 0.0,
+  mileage: 0,
+  cylinders: 0,
+  doors: 0,
+  airbags: 0,
+  predictedPrice: {},
 };
 
 export const homeSlice = createSlice({
@@ -57,6 +64,24 @@ export const homeSlice = createSlice({
     setWheel: (state, action) => {
       state.wheel = action.payload;
     },
+    setVolume: (state, action) => {
+      state.volume = action.payload;
+    },
+    setMileage: (state, action) => {
+      state.mileage = action.payload;
+    },
+    setCylinders: (state, action) => {
+      state.cylinders = action.payload;
+    },
+    setDoors: (state, action) => {
+      state.doors = action.payload;
+    },
+    setAirbags: (state, action) => {
+      state.airbags = action.payload;
+    },
+    setPredictedPrice: (state, action) => {
+      state.predictedPrice = action.payload;
+    },
   },
 });
 
@@ -75,6 +100,12 @@ export const {
   setGearBoxType,
   setDriveWheel,
   setWheel,
+  setVolume,
+  setMileage,
+  setCylinders,
+  setDoors,
+  setAirbags,
+  setPredictedPrice,
 } = homeSlice.actions;
 
 export default homeSlice.reducer;

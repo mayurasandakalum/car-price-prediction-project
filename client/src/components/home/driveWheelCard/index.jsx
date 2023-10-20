@@ -11,10 +11,10 @@ const DriveWheelCard = ({ driveWheel }) => {
   const selectedDriveWheel = useSelector((state) => state.home.driveWheel);
 
   const containerStyle = {
-    height: "280px",
+    height: "250px",
     borderRadius: "20px",
     backgroundColor: "white",
-    border: selectedDriveWheel === driveWheel ? "3px solid blue" : "none",
+    border: selectedDriveWheel === driveWheel ? "3px solid #012148" : "none",
     boxShadow: isHovered ? "0px 10px 20px 10px rgba(0, 0, 0, 0.1)" : "none",
     transition: "box-shadow 0.3s",
   };

@@ -1,4 +1,4 @@
-from flask import jsonify
+from flask import jsonify, request
 from app import app
 from app.services.response_service import ResponseService
 from app.services.car_data_service import CarDataService
@@ -85,7 +85,7 @@ def get_colors(param):
         return response, 400
 
 
-@app.route('/api/car_other_props', methods=['GET'])
+@app.route('/api/car-other-props', methods=['GET'])
 def get_other_props():
     try:
         result_data = car_data_service.get_other_properties()
@@ -104,3 +104,25 @@ def get_other_props():
         response.headers.add('Access-Control-Allow-Origin', '*')
 
         return response, 400
+
+
+@app.route('/api/predict-car-price', methods=['POST'])
+def predict_car_price():
+    if request.is_json:
+        data = request.get_json()
+        # print("Received JSON data:")
+    else:
+        data = request.form.to_dict()
+        # print("Received form data:")
+
+    print("data:", data)
+
+    prediction = car_data_service.predict_car_price(data)
+
+    success_response = response_service.create_success_response(
+        data={"predictedPrice": prediction}
+    )
+    response = jsonify(success_response)
+    response.headers.add('Access-Control-Allow-Origin', '*')
+
+    return response

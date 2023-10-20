@@ -22,15 +22,15 @@ const SelectLeatherInterior = () => {
     const value = event.target.value;
 
     if (value.toLowerCase() === "yes") {
-      dispatcher(setLeatherInterior(true));
+      dispatcher(setLeatherInterior(1));
     } else {
-      dispatcher(setLeatherInterior(false));
+      dispatcher(setLeatherInterior(0));
     }
   };
 
-  useEffect(() => {
-    console.log("selectedLeatherInterior:", selectedLeatherInterior);
-  }, [selectedLeatherInterior]);
+  // useEffect(() => {
+  //   console.log("selectedLeatherInterior:", selectedLeatherInterior);
+  // }, [selectedLeatherInterior]);
 
   return (
     <Box
@@ -40,6 +40,7 @@ const SelectLeatherInterior = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        mb: "100px",
       }}
     >
       <RadioGroup
@@ -81,9 +82,11 @@ const SelectLeatherInterior = () => {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
+              justifyContent: "center",
               gap: 1.5,
               p: 2,
-              minWidth: 120,
+              minWidth: 200,
+              minHeight: 200,
             }}
           >
             <Radio
@@ -92,15 +95,17 @@ const SelectLeatherInterior = () => {
               checkedIcon={<CheckCircleRoundedIcon />}
             />
             {value.toLowerCase() === "yes" ? (
-              <Avatar variant="soft" size="sm">
+              <Avatar variant="soft" size="lg" sx={{ bgcolor: "#63b363" }}>
                 <YesIcon />
               </Avatar>
             ) : (
-              <Avatar variant="soft" size="sm">
+              <Avatar variant="soft" size="lg" sx={{ bgcolor: "#f96767" }}>
                 <NoIcon />
               </Avatar>
             )}
-            <FormLabel htmlFor={value}>{value}</FormLabel>
+            <FormLabel sx={{ fontSize: "25px" }} htmlFor={value}>
+              {value}
+            </FormLabel>
           </Sheet>
         ))}
       </RadioGroup>
