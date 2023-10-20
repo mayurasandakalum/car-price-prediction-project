@@ -22,6 +22,7 @@ import SelectLeatherInterior from "../selectLeatherInterior";
 import SelectFuelType from "../selectFuelType";
 import SelectGearBoxType from "../selectGearBoxType";
 import SelectDriveWheel from "../selectDriveWheel";
+import SelectWheel from "../selectWheel";
 
 const RightSideSteps = () => {
   const [manufacturers, setManufacturers] = useState();
@@ -85,6 +86,7 @@ const RightSideSteps = () => {
         {STEPS[activeStep].index === "fuel" && <SelectFuelType />}
         {STEPS[activeStep].index === "gearbox" && <SelectGearBoxType />}
         {STEPS[activeStep].index === "drivewheel" && <SelectDriveWheel />}
+        {STEPS[activeStep].index === "wheel" && <SelectWheel />}
       </Box>
       <MobileStepper
         variant="progress"
