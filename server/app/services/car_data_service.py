@@ -139,7 +139,7 @@ class CarDataService:
             self.load_model()
 
         encoded_list = self.get_encodings(data)
-        print("encoded_list: ", encoded_list)
+        # print("encoded_list: ", encoded_list)
         prediction = self.model.predict([encoded_list])
         return prediction[0]
 

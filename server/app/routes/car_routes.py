@@ -115,7 +115,7 @@ def predict_car_price():
         data = request.form.to_dict()
         # print("Received form data:")
 
-    print("data:", data)
+    # print("data:", data)
 
     prediction = car_data_service.predict_car_price(data)
 
