@@ -1,5 +1,5 @@
 from flask import jsonify, request
-from app import app
+from application import app
 from app.services.response_service import ResponseService
 from app.services.car_data_service import CarDataService
 
