@@ -17,7 +17,7 @@ class CarDataService:
         with open(file_path) as file:
             return json.load(file)
 
-    def load_model(self, model_path='./server/app/model/carpredictor.pickle'):
+    def load_model(self, model_path='./app/model/carpredictor.pickle'):
         try:
             with open(model_path, 'rb') as f:
                 self.model = pickle.load(f)
@@ -34,12 +34,12 @@ class CarDataService:
                 self.car_info[key] = self.open_json_file(value)
 
         self.label_encodings = self.open_json_file(
-            'server/app/json_data/label_encodings_2.json')
+            'app/json_data/label_encodings_2.json')
 
     # get manufacturer logo
     def get_manufacturer_logo(self, manufacturer_name):
         manufacturers = self.open_json_file(
-            'server/app/json_data/car_manufacturers_logos.json')
+            'app/json_data/car_manufacturers_logos.json')
 
         for manufacturer in manufacturers:
             if manufacturer.get("name") == manufacturer_name:
@@ -146,10 +146,10 @@ class CarDataService:
 
 if __name__ == "__main__":
     file_paths = {
-        'manufacturers': 'server/app/json_data/car_manufacturers.json',
-        'models': 'server/app/json_data/car_models.json',
-        'color': 'server/app/json_data/car_colors_apis.json',
-        'car_other_properties': 'server/app/json_data/car_other_properties.json'
+        'manufacturers': 'app/json_data/car_manufacturers.json',
+        'models': 'app/json_data/car_models.json',
+        'color': 'app/json_data/car_colors_apis.json',
+        'car_other_properties': 'app/json_data/car_other_properties.json'
     }
     x = CarDataService(file_paths)
 

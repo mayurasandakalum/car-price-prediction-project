@@ -5,10 +5,10 @@ from app.services.car_data_service import CarDataService
 
 # file paths for json data
 file_paths = {
-    'manufacturers': 'server/app/json_data/car_manufacturers.json',
-    'models': 'server/app/json_data/car_models.json',
-    'color': 'server/app/json_data/car_colors_apis.json',
-    'car_other_properties': 'server/app/json_data/car_other_properties.json'
+    'manufacturers': 'app/json_data/car_manufacturers.json',
+    'models': 'app/json_data/car_models.json',
+    'color': 'app/json_data/car_colors_apis.json',
+    'car_other_properties': 'app/json_data/car_other_properties.json'
 }
 
 # create instances of services
